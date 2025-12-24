@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Christmas Card 🎄</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- MUSIC -->
+<audio id="bgm" src="assets/music.mp3" loop></audio>
+<button id="muteBtn">🔊</button>
+
+<!-- PAGE 1 -->
+<section class="page active" id="page1">
+  <div class="gift" onclick="openGift()">
+    🎁
+  </div>
+  <p class="hint">I have a little Christmas gift for you😘</p>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page" id="page2">
+  <h1>A Christmas Letter For You, My Love Lucas</h1>
+  <p>
+  <span class="line">Merry Christmas, My Love 🥳🎄.</span>
+  <span class="line">May this season bring you peace, warmth, and gentle moments of joy.</span>
+  <span class="line">
+    I’m grateful to have you in my life and Thank You for your understanding,
+    your sense of humor, your caring, your kindness,
+    and the effort you always make to be present with me.
+  </span>
+  <span class="highlight">
+    Even from miles away, you make me feel loved.
+  </span>
+
+  <span class="signature-block">
+    <br>With all my heart❤️,
+    <br></span>
+    Lasni Simanjuntak
+  </span>
+</p>
+    <img src="assets/videocall.webp" class="heart-gif" alt="love">
+  <button onclick="nextPage(2)">Next ✨</button>
+</section>
+
+<!-- PAGE 3 -->
+<section class="page" id="page3">
+  <h1>Special video</h1>
+  <div class="video-wrapper">
+  <video controls>
+    <source src="assets/video.mp4" type="video/mp4">
+  </video>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
